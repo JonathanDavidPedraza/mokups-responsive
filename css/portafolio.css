@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(49, 48, 48);
+}
+header{
+    font-family: 'Chelsea Market', cursive;
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(20, 19, 19);
+    color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+
+}
+h1{
+    float: left;
+}
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+
+#nike{
+    background-color: #59595B;
+    margin: 20px 0px;
+    text-align: center;
+    margin-top: 20px 10px;
+    padding: 20px
+}
+#caja1 img {
+    width: 90%;
+}
+#nike .h1 {
+    width: 100%;
+    font-family: 'Chelsea Market', cursive;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+#nike p {
+    text-align: center;
+    color: white;
+}
+
+#caja2 {
+    background-color: yellow;
+    padding: 20px;
+}
+
+#imagen img {
+    width: 100%;
+    align-content: center;
+}
+#cajitas h2{
+    text-align: center;
+    width: 300px;
+    color: white;
+    font-size: 15px;
+}
+#cajitas .contenedor {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#cajitas article {
+    margin: 5px;
+}
+#cajitas img {
+    margin: 10px 45px;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+}
+
+
+#caja3{
+    background-color: royalblue;
+   
+}
+
+#caja3 .contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#caja3 article {
+    margin: 10px;
+    padding: 20px;
+}
+#caja3 img {
+    width: 100%;
+    max-width: 200px;
+}
+#caja3 p {
+    text-align: center;
+    width: 200px;
+    font-size: 15px;
+    color: white;
+}
+
+@media (min-width:1024px){
+    #nike{
+        float: left;
+        background-color: #59595B;
+        width: 100%;
+        border-radius: 15px;
+    }
+    
+    #caja1 img {
+        float: left;
+        width: 50%;
+        align-items: center;
+        padding: 20px;
+    }
+    #caja {
+        float: right;
+        width: 50%;
+        align-content: center;
+        padding: 20px;
+
+    }
+    #caja .h1 {
+        color:white;
+        float: left;
+        
+    }
+    #caja1 p {
+        width: 100%;
+        font-size: 25px;
+    }
+    
+    #nike p {
+        text-align: center;
+    }
+    
+    
+    #caja2 {
+        background-color: yellow;
+        width: 60%;
+        display: flex;
+        float: left;
+        margin: 20px;
+        border-radius: 15px;
+        
+    }
+    
+    #imagen img {
+        width: 100%;
+        align-content: center;
+    }
+
+
+    #cajitas h2{
+        text-align: center;
+        width: 200px;
+        color: white;
+        font-size: 15px;
+    }
+
+    #cajitas .contenedor {
+        float: left;
+        background-color: red;
+        width: 60%;
+        display: flex;
+        margin: 0px 20px;
+        border-radius: 15px;
+    }
+
+    #cajitas img {
+        margin: 10px 20px;
+        justify-content: center;
+        max-width: 150px;
+    }
+    
+    
+    #caja3{
+        float: right;
+        width: 35%;
+        padding: 20px 10px;
+        border-radius: 15px;
+    }
+
+    #caja3 article {
+       float: left;
+    }
+
+    #caja3 img {
+        width: 100%;
+        max-width: 220px;
+        margin: 10px;
+    }
+
+    #caja3 p {
+        padding: 20px;
+        float: right;
+        width: 150px;
+        max-width: 200px;
+    }
+
+}

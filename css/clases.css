@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(49, 48, 48);
+}
+header{
+    font-family: 'Chelsea Market', cursive;
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(20, 19, 19);
+    color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+
+}
+h1{
+    float: left;
+}
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+
+#cajitas h2{
+    text-align: center;
+    width: 300px;
+    color: white;
+    font-size: 15px;
+}
+#cajitas .contenedor {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+#cajitas article {
+    margin: 5px;
+}
+#cajitas img {
+    margin: 10px 45px;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+}
+
+#caja .contenedor {
+    background-color: lawngreen;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+#caja article {
+    text-align: center;
+    margin: 20px;
+}
+#caja p {
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.botones .button {
+    background-color: #464649;
+    border: 1px solid gray;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 9px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+.botones .button:not(:last-child) {
+    border-bottom: none;
+}
+
+@media (min-width:1024px){
+    .botones .button {
+        background-color: #464649;
+        border: 1px solid gray;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        width: 35%;
+        display: block;
+    }
+    
+    .botones .button:not(:last-child) {
+        border-bottom: none;
+    }
+    
+    .botones .button:hover {
+        background-color: #FF6600;
+        border-radius: 15px;
+    }
+    
+
+    #cajitas .contenedor {
+        padding: 10px;
+        background-color: red;
+        width: 60%;
+        float: right;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        border-radius: 15px;
+    
+    }
+
+    #caja .contenedor {
+        background-color: lawngreen;
+        width: 100%;
+        float: right;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        border-radius: 15px;
+    
+    }
+}
+
+
+

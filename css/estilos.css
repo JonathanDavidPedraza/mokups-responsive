@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(49, 48, 48);
+}
+header{
+    font-family: 'Chelsea Market', cursive;
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(20, 19, 19);
+    color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+
+}
+h1{
+    float: left;
+}
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#actividades {
+    background-color: rgba(230, 52, 52, 0.884);
+    margin: 20px 0px;
+    text-align: center;
+    padding: 20px
+
+}
+
+#actividades h1 {
+    width: 100%;
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+    padding: 20px;
+}
+#colaboraciones {
+    background-color: black; 
+    text-align: center;
+    margin: 20px 0px;
+    padding: 20px
+}
+#colaboraciones h1 {
+    width: 100%;
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+    padding: 20px;
+
+}
+#colaboraciones p {
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+@media (min-width:1024px){
+    #actividades {
+        width: 60%;
+        float: left;
+        margin-top: 50px;
+        height: 100%;
+    }
+    #colaboraciones{
+        width: 40%;
+        float: right;
+        margin-top: 50px;   
+    }
+}

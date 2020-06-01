@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(49, 48, 48);
+}
+header{
+    font-family: 'Chelsea Market', cursive;
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(20, 19, 19);
+    color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+
+}
+h1{
+    float: left;
+}
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+
+#arriba{
+    margin: 20px 0px;
+    width: 100%;
+    background-color: blueviolet;
+    float: left;   
+}
+
+#arriba img {
+    width: 90%;
+    float: left;
+    margin: 20px;
+    justify-content: center;
+}
+
+#arriba p {
+    text-align: center;
+    margin: 50px;
+}
+
+#imagen {
+    float: left;
+    width: 100%;
+}
+
+#imagen img {
+    width: 100%;
+    border-radius: 11px;
+}
+
+#texto {
+    width: 100%;
+    color: white;
+}
+
+#cajitas .contenedor {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#cajitas p {
+    margin: 20px;
+    width: 100%;
+    color: white;
+}
+
+#cajitas article {
+    float: left;
+}
+
+#cajitas img {
+    margin: 10px 20px;
+    justify-content: center;
+    max-width: 250px;
+}
+
+
+@media(min-width:1024px){
+    #arriba{
+        margin-top: 20px;
+        width: 100%;
+        border-radius: 15px;
+    }
+    #arriba img {
+        width: 30%;   
+    }
+
+    #texto{
+        float: left;
+        width: 40%;
+        margin: 20px;
+        color: white;
+        font-size: 15px; 
+    }
+
+    #cajitas .contenedor{
+        width: 55%;
+        float: right;
+        border-radius: 15px;
+    }
+
+    #cajitas img {
+        width: 150px;
+    }
+}

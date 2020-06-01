@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(49, 48, 48);
+}
+header{
+    font-family: 'Chelsea Market', cursive;
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(20, 19, 19);
+    color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+
+}
+h1{
+    float: left;
+}
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+#video {
+    width: 100%;
+    float: left;
+    background-color: #d48a00;
+    margin-top: 20px;
+    padding: 20px;
+}
+#youtube {
+    margin-top: 20px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+	align-content: center;
+	background-color: #ED1B24;
+    width: 100%;
+    height: 300px;
+}
+#youtube img {
+    width: 20%;
+}
+#contenido h1 {
+    width: 100%;
+    font-family: 'Chelsea Market', cursive;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+#contenido p {
+    width: 100%;
+    color: white;
+    font-size: 15px;
+}
+
+#cajitas h2{
+    text-align: center;
+    width: 260px;
+    color: white;
+    font-size: 15px;
+    margin: 20px;
+}
+#cajitas .contenedor {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#cajitas article {
+    margin: 5px;
+}
+#cajitas img {
+    margin: 10px 45px;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+}
+#texto {
+    width: 100%;
+    background-color:black;
+    padding: 20px;
+}
+#texto h1 {
+    width: 100%;
+    color: white;
+}
+#texto p {
+    font-family: 'Chelsea Market', cursive;
+    width: 90%;
+    color: white;
+    
+}
+
+
+
+@media(min-width:1024px){
+    #video{
+        width: 100%;
+        border-radius: 15px;
+    }
+    #youtube{
+        float: left;
+        width: 40%;
+        text-align: center;
+        padding: 20px;
+    }
+    #contenido{
+        float: right;
+        width: 60%;
+        align-content: center;
+        padding: 20px;
+    }
+    #video h1 {
+        float: left;
+    }
+    #video p {
+        float: left;
+        width: 100%;
+    }
+
+    
+    #cajitas h2{
+        text-align: center;
+        width: 80%;
+        color: white;
+        font-size: 15px;
+    }
+    #cajitas article {
+        width: 30%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #cajitas .contenedor {
+        float: left;
+        background-color: red;
+        width: 60%;
+        display: flex;
+        margin: 0px 20px;
+        border-radius: 15px;
+    }
+
+    #cajitas img {
+        margin: 10px 20px;
+        justify-content: center;
+        width: 100%;
+    }
+    #texto {
+        width: 35%;
+        float: right;
+        padding: 20px;
+        border-radius: 15px;
+    }
+}
